@@ -1,6 +1,14 @@
+// Started my code 
+//created the following variables
+var confrimLength
+
+
+
+
+
 // Array of special characters to be included in password
 var specialCharacters = [
-  '@',
+ '@',
   '%',
   '+',
   '\\',
