@@ -40,7 +40,7 @@ function writePassword() {
 
    // function that checks if it's between 8 and 128 characters
    if (passwordLength <= 10 || passwordLength > 64) {
-       alert("Your password is not between 8 characters and 128 characters. Please try again.");
+       alert("Your password is not between 10 characters and 64 characters. Please try again.");
        var passwordLength = prompt("Choose a password length of at least 10 characters and no more than 64 characters.");
    }
 
