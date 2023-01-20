@@ -38,7 +38,7 @@ function writePassword() {
    var specCharacter = confirm("Do you want your password to contain special characters?");
    var passwordLength = prompt("Choose a password length of at least 10 characters and no more than 64 characters.");
 
-   // function that checks if it's between 8 and 128 characters
+   // function that checks if it's between 6 and 64 characters
    if (passwordLength <= 10 || passwordLength > 64) {
        alert("Your password is not between 10 characters and 64 characters. Please try again.");
        var passwordLength = prompt("Choose a password length of at least 10 characters and no more than 64 characters.");
