@@ -55,11 +55,11 @@ function writePassword() {
 
     // Use the criteria that are selected to generate the password
     if (lcLetter) {
-        choice += lowerCasedCharacters;
+        choice += lowercaseLett;
     }
 
     if (ucLetter) {
-        choice += upperCasedCharacters;
+        choice += uppercaseLett;
     }
 
     if (number) {
@@ -67,7 +67,7 @@ function writePassword() {
     }
 
     if (specCharacter) {
-        choice += specialCharacters;
+        choice += specialChars;
     }
 
     // Generates a random password based on the criteria selected
