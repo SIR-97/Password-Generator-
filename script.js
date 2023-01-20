@@ -67,7 +67,7 @@ function writePassword() {
     }
 
     if (specCharacter) {
-        choice += specialChars;
+        choice += specialChar;
     }
 
     // Generates a random password based on the criteria selected
