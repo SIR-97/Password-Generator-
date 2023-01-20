@@ -72,7 +72,7 @@ function writePassword() {
 
     // Generates a random password based on the criteria selected
     for (var i = 0; i < passwordLength; i++) {
-    adrandomString += choice.charAt(Math.floor(Math.random() * choice.length));
+    randomString += choice.charAt(Math.floor(Math.random() * choice.length));
     }
     passwordText.value = randomString; // displays the generated password 
   }
