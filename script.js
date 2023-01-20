@@ -36,12 +36,12 @@ function writePassword() {
    var ucLetter = confirm("Do you want your password to contain uppercase letters?");
    var number = confirm("Do you want your password to contain numbers?");
    var specCharacter = confirm("Do you want your password to contain special characters?");
-   var passwordLength = prompt("Choose a password length of at least 8 characters and no more than 128 characters.");
+   var passwordLength = prompt("Choose a password length of at least 10 characters and no more than 64 characters.");
 
    // function that checks if it's between 8 and 128 characters
    if (passwordLength <= 10 || passwordLength > 64) {
        alert("Your password is not between 8 characters and 128 characters. Please try again.");
-       var passwordLength = prompt("Choose a password length of at least 8 characters and no more than 128 characters.");
+       var passwordLength = prompt("Choose a password length of at least 10 characters and no more than 64 characters.");
    }
 
     // prompts user to select at least one criterior for password
